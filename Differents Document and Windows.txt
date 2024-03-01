@@ -1,0 +1,28 @@
+Different between Document and Window objects
+
+DOCUMENT OBJECTS:
+
+*The “Document Object” represents a webpage structure that is inserted in the DOM tree hierarchy and when compiled the content gets displayed on the webpage.
+*It is utilized to call or invoke a function or method when the user performs some specified action like clicking a button.
+*Its scope is limited to the web pages it represents
+*The various properties of the DOM can be returned or get by utilizing the document object.	
+*Document Object is part of the Browser Object Model and Document Object Model.	
+*The programmer can access the document from the window with the help of “window.document”.	
+*Loaded in the window	
+*The syntax for Document Object is:
+Syntax:
+*document.property_Name;
+
+WINDOW OBJECTS:
+
+*“Window Object” is at the head position of the DOM hierarchy showing a window browser or frame.
+*It identifies the browser tab that contains the webpage and handles events related to the window, such as resizing, scrolling, or closing.
+*The scope can extend beyond the current document to a tab of the browser.
+*Properties for window objects are not accessible using the document object.
+*It is only part of the Browser Object Model
+*It can also access by utilizing the “window.window”
+*Loaded in browser
+*The syntax for Window Object is:
+Syntax:
+*window.property_Name;
+
